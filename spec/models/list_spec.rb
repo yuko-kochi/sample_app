@@ -7,4 +7,3 @@ describe 'モデルのテスト' do
     expect(FactoryBot.build(:list)).to be_valid
   end
 end
-
