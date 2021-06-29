@@ -47,6 +47,7 @@ describe '投稿のテスト' do
       it '一覧表示画面に投稿されたもの表示されているか' do
         expect(page).to have_content list.title
         expect(page).to have_link list.title
+        
       end
     end
   end
